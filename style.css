@@ -130,6 +130,7 @@ html, body{
     background-color: #fff;
 }
 #right #rtop{
+    position: relative;
     margin-left: 80px;
     height: 70%;
     width: 100%;
@@ -166,7 +167,44 @@ html, body{
       font-size: 17px;
 }
 #right #rbottom{
+    position: relative;
     height: 30%;
     width: 100%;
-    background-color:#dadada;
+    background-image: url(https://images.unsplash.com/photo-1719072497482-4923772f3d7e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#rimg{
+    margin-left: -80px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(https://images.unsplash.com/photo-1717620380245-8e476305eb97?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+#rimg i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #222;
+}
+#rbtm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#rbtm h4{
+    padding-left: 5px;
+}
+#rbtm p{
+    padding-left: 6px;
+    opacity: .5;
+    font-size: 13px;
+    font-weight: 600;
 }
