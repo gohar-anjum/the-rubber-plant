@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#left{
+    width: 75%;
+    height: 100%;
+    background-color: bisque;
+}
+#left #ltop{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+#left #lbottom{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 30%;
+    width: 100%;
+    background-color:#222;
+}
+
+#lbl{
+    width: 45%;
+    height: 10px;
+}
+#lbl h1{
+    color: #fff;
+}
+#lbl p{
+    padding-top: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+#lbr{
+    width: 45%;
+}
+#lbrl{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+#lbrl1{
+    display: flex;
+    color: #fff;
+}
+
+
+#lbrlt1{
+    padding-left: 5px;
+}
+
+#lbrlt1 p{
+    opacity: .5;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 200px;
+}
+#lbrr1{
+    padding-left: 100px;
+    display: flex;
+    color: #fff;
+}
+#lbrrt1{
+    padding-left: 5px;
+}
+#lbrrt1 p{
+    opacity: .5;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 200px;
+}
+
+#lbrr{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#lbrr2{
+    display: flex;
+    color: #fff;
+}
+
+#lbrrt2{
+    padding-left: 5px;
+}
+
+#lbrrt2 p{
+    opacity: .5;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 200px;
+}
+
+#lbrr3{
+    padding-left: 100px;
+    display: flex;
+    color: #fff;
+}
+#lbrrt3{
+    padding-left: 5px;
+}
+#lbrrt3 p{
+    opacity: .5;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 200px;
+}
+
+
+
+#right{
+    width: 25%;
+    height: 100%;
+    background-color: blueviolet;
+}
+#right #rtop{
+    height: 70%;
+    width: 100%;
+    background-color: #fff;
+}
+#right #rbottom{
+    height: 30%;
+    width: 100%;
+    background-color:#dadada;
+}
