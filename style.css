@@ -130,7 +130,6 @@ html, body{
     background-color: #fff;
 }
 #right #rtop{
-    margin-top: 100px;
     margin-left: 80px;
     height: 70%;
     width: 100%;
@@ -139,13 +138,32 @@ html, body{
     flex-direction: column;
 }
 #rtop a{
+    position: relative;
     color: #000;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+#rtop a:nth-child(2)::before{
+    content: "-";
+}
+#rtop a:nth-child(2){
+    margin-left: 10px;
+}
+#rtop #ricon{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    gap: 20px;
+    position: absolute;
+}
+#rtop #icon i{
+      padding: 30px;
+      font-size: 17px;
 }
 #right #rbottom{
     height: 30%;
