@@ -127,12 +127,25 @@ html, body{
 #right{
     width: 25%;
     height: 100%;
-    background-color: blueviolet;
+    background-color: #fff;
 }
 #right #rtop{
+    margin-top: 100px;
+    margin-left: 80px;
     height: 70%;
     width: 100%;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+#rtop a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
 }
 #right #rbottom{
     height: 30%;
